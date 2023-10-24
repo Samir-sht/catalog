@@ -1,0 +1,15 @@
+@media (max-width: 61.9375rem) {
+  .campaign {
+    &__features {
+      grid-template-columns: repeat(2, minmax(33.33%, 1fr)) !important;
+    }
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .campaign {
+    &__features {
+      grid-template-columns: 1fr !important;
+    }
+  }
+}
